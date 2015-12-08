@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+}
+#customBox {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: ;
+  margin-left: 100px;
+  margin-right: 5%;
+  margin-top: 100px;
+  padding: 50px;
+  width: 35%;
+  float:left;
+}
+.userDetails {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: olive;
+  margin-top: 100px;
+  float:left;
+  padding: 5px;
+  display:none;
+}
+
+
+.margin {
+  margin-bottom: 2%;
+}
+.marginRight {
+  margin-right: 18%;
+
+}
+.size {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.border {
+  border-radius: 10px;
+  width: 40%;
+}
+hr {
+  margin-bottom: 10%;
+}
+.secondDiv {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #efefef;
+  margin-left: 500px;
+  margin-top: -450px;
+  position: absolute;
+  padding: 50px;
+  width: 300px;
+  display:none;
+  z-index: 2;
+}
+.td {
+  width: 500px;
+}
+#ok {
+  width: 100px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif fantasy;
+}

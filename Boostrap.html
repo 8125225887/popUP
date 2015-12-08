@@ -1,0 +1,98 @@
+<html>
+ <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="Boostrap.css" rel="stylesheet">
+     <script src="js/bootstrap.min.js"></script>
+     <script src="jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+      <div id='customBox'>
+          <div class="margin">
+              <input type="text" class="form-control" id="name" placeHolder="EnterYourName"></input>
+          </div>
+
+           <div class="input-group margin">
+               <input type="text" class="form-control" id="mail" placeholder="Username">
+               <span class="input-group-addon" id="basic-addon2">@gmail.com</span>
+           </div>
+           <div class="margin">
+               <input type="text" class="form-control" placeHolder="EnterYourPassword" ></input>
+           </div>
+           <div class="margin">
+               <input type="text" class="form-control" placeHolder="re-enterYourPassword"></input>
+           </div>
+
+           <div class="input-group margin">
+               <div class="input-group-btn">
+                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+91 <span class="caret"></span></button>
+                       <ul class="dropdown-menu">
+                           <li>+91</li>
+                           <li>+111</li>
+                           <li>+80</li>
+                           <li role="separator" class="divider"></li>
+                           <li><a href="#">Others</a></li>
+                       </ul>
+               </div><!-- /btn-group -->
+                    <input type="text" class="form-control" id="mobile" placeholder="Enter your mobile number">
+           </div><!-- /input-group -->
+           <div class="margin">
+               <button type="button" class="btn btn-lg btn-primary size" onclick="passwordValidation()">GO</button>
+           </div>
+           <hr />
+          <div class="margin">
+              <button type="button" class="btn btn-lg btn-info marginRight border">F signIn</button>
+              <button type="button" class="btn btn-lg btn-danger border">G signIn</button>
+          </div>
+     </div><!--customeBox -->
+
+     <div class="userDetails">
+        <div class="row">
+            <div class="col-md-3">
+                <table class="table">
+                    <tr>
+                        <td>your Name</td>
+                        <td>:-</td>
+                        <td id="data1"></td>
+                    </tr>
+                    <tr>
+                        <td>Mail Id</td>
+                        <td>:-</td>
+                        <td id="data2"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td>:-</td>
+                        <td id="data3"></td>
+                    </tr>
+                </table>
+                <button type="button" class="btn btn-sm btn-primary" id="ok">ok</button>
+            </div>
+        </div>
+    </div><!--user details closed -->
+ </div><!-- container closed-->
+    <div class="marginTwo">
+        <nav>
+           <ul class="pager">
+              <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+              <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+           </ul>
+        </nav>
+    </div>
+        <div id="popup" class= "secondDiv">ss
+        </div>
+<script>
+function passwordValidation() {
+  document.getElementById("popup").style.display="block";
+  //$(".userDetails").css("display","block");
+  //$("#data1").html($("#name").val());
+  //$("#data2").html($("#mail").val());
+  //$("#data3").html($("#mobile").val());
+   }
+   </script>
+</body>
+</html>
