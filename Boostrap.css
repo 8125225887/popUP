@@ -4,24 +4,22 @@
 #customBox {
   border: 1px solid black;
   border-radius: 5px;
-  background-color: ;
+  float:left;
   margin-left: 100px;
   margin-right: 5%;
   margin-top: 100px;
   padding: 50px;
   width: 35%;
-  float:left;
 }
 .userDetails {
   border: 1px solid black;
   border-radius: 5px;
   background-color: olive;
-  margin-top: 100px;
-  float:left;
-  padding: 5px;
   display:none;
+  float:left;
+  margin-top: 100px;
+  padding: 5px;
 }
-
 
 .margin {
   margin-bottom: 2%;
@@ -31,10 +29,10 @@
 
 }
 .size {
-  width: 100%;
-  text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
 }
 .border {
   border-radius: 10px;
@@ -47,20 +45,20 @@ hr {
   border: 1px solid black;
   border-radius: 5px;
   background-color: #efefef;
+  display:none;
   margin-left: 500px;
   margin-top: -450px;
   position: absolute;
   padding: 50px;
   width: 300px;
-  display:none;
   z-index: 2;
 }
 .td {
   width: 500px;
 }
 #ok {
-  width: 100px;
+  font-family: sans-serif fantasy;
   text-transform: uppercase;
   text-decoration: underline;
-  font-family: sans-serif fantasy;
+  width: 100px;
 }
